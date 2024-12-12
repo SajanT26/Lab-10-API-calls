@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10 API Calls</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Lab 10 API Calls</h1>
+    <button id="fetch-btn">Fetch Data with fetch()</button>
+    <button id="xhr-btn">Fetch Data with XHR</button>
+    <div id="data-container"></div>
+    <form id="post-form">
+        <label for="post-title">Post Title:</label>
+        <input type="text" id="post-title" name="post-title"><br><br>
+        <label for="post-body">Post Body:</label>
+        <input type="text" id="post-body" name="post-body"><br><br>
+        <button id="post-btn">Send Data with POST</button>
+    </form>
+    <form id="put-form">
+        <label for="put-id">Post ID:</label>
+        <input type="number" id="put-id" name="put-id"><br><br>
+        <label for="put-title">Post Title:</label>
+        <input type="text" id="put-title" name="put-title"><br><br>
+        <label for="put-body">Post Body:</label>
+        <input type="text" id="put-body" name="put-body"><br><br>
+        <button id="put-btn">Update Data with PUT</button>
+    </form>
+    <div id="error-container"></div>
+    <div id="success-container"></div>
+    <button id="fetch-all-btn">Fetch All Posts</button>
+</body>
+</html>
